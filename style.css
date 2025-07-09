@@ -1,0 +1,276 @@
+html {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  background-color: #f84646;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#presentation-container {
+  padding: 2.5rem 7.5rem;
+  height: 100vh;
+  background-image: url(assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#presentation {
+  width: 45vw;
+}
+
+#presentation p {
+  font-size: 1.25rem;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.background-red {
+  background-color: #f84646;
+  text-align: center;
+  color: #fff;
+  padding: 5rem 7.5rem !important;
+}
+
+.background-grey {
+  background-color: #f4f5f7;
+}
+
+#qualities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin-top: 4rem;
+}
+
+#qualities img {
+  margin: 0 2rem;
+}
+
+.container {
+  padding: 8rem 5rem;
+  text-align: center;
+}
+
+.container > p {
+  font-size: 1.1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+.container > button {
+  margin-top: 2rem;
+  transition: opacity 0.2s ease-in-out, transform 0.5s 0.1s;
+}
+
+.container > button:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+
+.background-gradient {
+  background: linear-gradient(180deg, #fff, #d9d9d9);
+}
+
+.article-container {
+  display: flex;
+}
+
+.article-container > img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.article-container:nth-child(even) {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.article-container:nth-child(even) .article-details {
+  margin: 0 0 0 2.5rem;
+}
+
+.article-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+  margin: 0 2.5rem 0 0;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.article-details > button {
+  font-size: 1rem;
+  padding: 0.6rem 1.8rem;
+}
+
+.article-details-text > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #808080;
+  padding: 0 3rem 0 0;
+  margin-top: 2rem;
+}
+
+.article-container:nth-child(even) .article-details-text > p {
+  font-size: 1rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #808080;
+  padding: 0 3rem 0 0;
+}
+
+.article-details-text > h2 {
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  color: #2e2e2e;
+}
+
+.title-quality {
+  margin-bottom: 1rem;
+}
+
+.text-quality {
+  font-size: 5rem;
+  color: #000000;
+  margin-bottom: 5.5rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.grid-item > h3 {
+  margin-top: 0.5rem;
+}
+
+.grid-item > p {
+  margin: 0.5 0 0;
+}
+
+.grid-container-companies {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 3.5rem;
+}
+
+.grid-item-companies {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.company-1 {
+  grid-area: 3/1;
+}
+
+.company-2 {
+  grid-area: 2/2;
+}
+
+.company-3 {
+  grid-area: 3/2;
+}
+
+.company-4 {
+  grid-area: 1/3;
+}
+
+.company-5 {
+  grid-area: 2/3;
+}
+
+.company-6 {
+  grid-area: 3/3;
+}
+
+.company-7 {
+  grid-area: 2/4;
+}
+
+.company-8 {
+  grid-area: 3/4;
+}
+
+.company-9 {
+  grid-area: 3/5;
+}
+
+.footer-list {
+  display: flex;
+  text-align: left;
+}
+
+.footer-list:last-child {
+  margin-right: 0;
+}
+
+.footer-list > ul > li {
+  list-style: none;
+  margin-bottom: 1rem;
+  margin-right: 2.5rem;
+}
+
+.footer-list > ul > li:last-child {
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.footer-list > ul > li:first-child {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8.5rem;
+}
