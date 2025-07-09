@@ -21,15 +21,6 @@ O layout foi implementado com base neste [Design no Figma](https://www.figma.com
 
 ---
 
-
-<!-- Exemplo básico da estrutura -->
-<header id="header">
-  <div id="nameAndTitle">
-    <h1>Fulano da Silva</h1>
-    <h2>Desenvolvedor Front-End</h2>
-  </div>
-</header>
-
 📚 Habilidades Desenvolvidas
 Estruturação semântica com HTML5
 
