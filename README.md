@@ -21,10 +21,6 @@ O layout foi implementado com base neste [Design no Figma](https://www.figma.com
 
 ---
 
-## 📸 Preview
-
-> 🔒 *Coloque aqui uma imagem da interface (ex: `./assets/preview.png`)*
-
 
 <!-- Exemplo básico da estrutura -->
 <header id="header">
@@ -66,9 +62,9 @@ Figma (referência visual)
 
 🗂️ Estrutura do Projeto
 
-📁 curriculum/
-├── index.html
-├── styles.css
+📁 curriculum/ <br/>
+├── index.html <br/>
+├── styles.css <br/>
 ├── /assets
 
 
@@ -95,7 +91,7 @@ start index.html
 
 👨‍💻 Autor
 Desenvolvido por Vinicius Almeida durante o módulo de HTML/CSS da DNC.
-Conecte-se comigo no LinkedIn ou envie um e-mail para seu@email.com
+Conecte-se comigo no LinkedIn ou envie um e-mail para vinicius.quadros@icloud.com
 
 ⭐ Se este projeto te inspirou, não esqueça de deixar uma estrela no repositório!
 ```html
