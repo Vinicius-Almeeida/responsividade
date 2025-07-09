@@ -1,67 +1,101 @@
-🚀 Desafio de Responsividade: Landing Page com HTML5 e CSS3
-Bem-vindo ao repositório do meu projeto desenvolvido durante o módulo HTML e CSS na Prática. O desafio central deste trabalho foi replicar com fidelidade uma interface de usuário (UI) profissional a partir de um design no Figma, com foco total em responsividade.
+<h1 align="center">
+  🖥️ Landing Page Responsiva com HTML e CSS
+</h1>
 
-O objetivo era construir uma Landing Page que se adaptasse perfeitamente a três viewports distintas: desktop, tablet e mobile, aplicando técnicas modernas de CSS para garantir uma experiência de usuário consistente e de alta qualidade em qualquer dispositivo.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-black?style=for-the-badge&logo=html5&logoColor=orange"/>
+  <img src="https://img.shields.io/badge/CSS3-black?style=for-the-badge&logo=css3&logoColor=blue"/>
+  <img src="https://img.shields.io/badge/Responsivo-darkviolet?style=for-the-badge"/>
+</p>
 
-🔗 Confira o design original no Figma aqui
+<p align="center">
+  Projeto desenvolvido no <strong>módulo de HTML e CSS</strong> do curso de Engenharia de Software da DNC, com base no layout criado no Figma.
+</p>
 
-🛠️ Tecnologias e Ferramentas Utilizadas
-https://developer.mozilla.org/pt-BR/docs/Web/HTML"> https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" />
-HTML5	https://developer.mozilla.org/pt-BR/docs/Web/CSS"> https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" />
-CSS3	https://code.visualstudio.com/"> https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" width="48" height="48" alt="VSCode" />
-VSCode	https://www.figma.com/"> https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="48" height="48" alt="Figma" />
-Figma	https://github.com/"> https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="48" height="48" alt="GitHub" />
-GitHub
+---
 
-Exportar para as Planilhas
-HTML5 Semântico: Utilização correta das tags (<nav>, <section>, <footer>, <header>) para criar uma estrutura de código clara, acessível e organizada.
+## 🧠 Visão Geral
 
-CSS3: Estilização completa, incluindo a criação de variáveis (:root) para padronizar cores e fontes, e efeitos como box-shadow e linear-gradient.
+Este projeto consiste em uma **landing page responsiva**, construída do zero utilizando **HTML5** e **CSS3**, com foco em boas práticas de estruturação e estilização.  
+O layout foi implementado com base neste [Design no Figma](https://www.figma.com/design/XvZZxpl5zKnMCqGR5PUedf/Landing-Page-UI---Responsividade-com-CSS--DNC-?node-id=0-1) 🎨
 
-Flexbox & Grid: As estrelas do projeto! Conceitos aplicados para criar layouts complexos, alinhar elementos e distribuir o conteúdo de forma eficiente e flexível.
+---
 
-Media Queries: A ferramenta chave para o desafio, permitindo a aplicação de estilos diferentes com base na largura da tela e garantindo a responsividade do layout.
+## 📸 Preview
 
-Ferramentas:
+> 🔒 *Coloque aqui uma imagem da interface (ex: `./assets/preview.png`)*
 
-Visual Studio Code: Editor de código utilizado para todo o desenvolvimento.
 
-Figma: Ferramenta de design utilizada como fonte da verdade para a interface, de onde foram extraídos estilos, medidas e assets.
+<!-- Exemplo básico da estrutura -->
+<header id="header">
+  <div id="nameAndTitle">
+    <h1>Fulano da Silva</h1>
+    <h2>Desenvolvedor Front-End</h2>
+  </div>
+</header>
 
-Git & GitHub: Para versionamento de código e hospedagem do repositório.
+📚 Habilidades Desenvolvidas
+Estruturação semântica com HTML5
 
-🧠 Principais Conceitos Aplicados
-Este projeto foi uma imersão completa nos fundamentos do desenvolvimento web, com ênfase especial nos seguintes pontos:
+Estilização com CSS3 (modular, organizado)
 
-1. Layouts Avançados e Responsivos
-Este foi o coração do desafio. Onde a dificuldade se transformou em aprendizado sólido.
+Responsividade com Flexbox e Grid Layout
 
-Flexbox (Display Flex): Utilizado para alinhar itens em uma dimensão, perfeito para organizar o menu de navegação, os campos do formulário e os componentes do rodapé. Sua flexibilidade foi crucial para os ajustes entre as diferentes visualizações.
+Uso de fontes externas com Google Fonts
 
-Grid Layout (Display Grid): Fundamental para estruturar os blocos principais da página em duas dimensões. Facilitou a criação de seções mais complexas, como a área de serviços e clientes, mantendo o alinhamento e a proporção definidos no Figma.
+Integração com Font Awesome para ícones
 
-Media Queries (@media): A técnica central que tornou a responsividade possível. Foram criados "breakpoints" (pontos de quebra) para aplicar estilos específicos para desktop, tablet e mobile, ajustando o fluxo dos elementos, tamanhos de fonte e espaçamentos para cada viewport.
+Formulário com validação básica e integração via Formspree
 
-2. Estrutura e Estilização
-HTML Semântico: Adoção de uma estrutura de código limpa e com significado, facilitando a manutenção futura e melhorando a acessibilidade.
+Layout baseado em design real no Figma
 
-Seletores CSS: Uso de seletores de tag, id (#), class (.) e pseudoclasses (:hover) para aplicar estilos de forma precisa e eficiente.
+Separação de estilos (HTML + CSS externo)
 
-CSS Moderno: Práticas como a criação de variáveis de CSS para manter a consistência de cores e fontes, e o uso de box-shadow e linear-gradient para adicionar profundidade e refinamento visual ao design.
+🛠️ Tecnologias Utilizadas
+HTML5
 
-3. Formulários e Interatividade
-Construção de um formulário de contato completo, utilizando labels, placeholders e diferentes tipos de <input>.
+CSS3
 
-Estilização dos elementos do formulário para que correspondessem exatamente ao design proposto no Figma.
+Google Fonts
 
-📂 Estrutura do Projeto
-O código está organizado da seguinte forma:
+Font Awesome
 
-index.html: Arquivo principal contendo toda a estrutura HTML da Landing Page.
+Formspree (simulado)
 
-estilo.css: Arquivo contendo toda a estilização CSS, incluindo as Media Queries para a responsividade.
+Figma (referência visual)
 
-Para visualizar o projeto, basta abrir o arquivo index.html em qualquer navegador web.
+🗂️ Estrutura do Projeto
 
-🙏 Agradecimentos
-Um agradecimento especial aos instrutores João Oliveira e Fábio Cloutzou, cujo conhecimento e didática foram fundamentais para que eu pudesse não apenas concluir este desafio, mas também solidificar minha compreensão sobre os pilares do desenvolvimento front-end, especialmente em temas complexos como Flexbox e Grid.
+📁 curriculum/
+├── index.html
+├── styles.css
+├── /assets
+
+
+💻 Como Rodar Localmente
+bash
+Copiar
+Editar
+# 1. Clone o repositório
+git clone https://github.com/seu-usuario/landing-page-css-dnc.git
+
+# 2. Acesse a pasta
+cd landing-page-css-dnc
+
+# 3. Abra o arquivo no navegador
+start index.html
+✨ Destaques
+⚡ Site leve e rápido
+
+💎 Estilo moderno com layout clean
+
+📱 Responsivo em qualquer dispositivo
+
+💡 Ótima prática para iniciantes em Front-End
+
+👨‍💻 Autor
+Desenvolvido por Vinicius Almeida durante o módulo de HTML/CSS da DNC.
+Conecte-se comigo no LinkedIn ou envie um e-mail para seu@email.com
+
+⭐ Se este projeto te inspirou, não esqueça de deixar uma estrela no repositório!
+```html
